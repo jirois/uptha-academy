@@ -1,10 +1,13 @@
+import React from "react";
+import { BrowserRouter as Router } from 'react-router-dom'
+import Home from "./page";
 
 
 function App() {
   return (
-    <>
-      <h1>Uptha App</h1>
-    </>
+    <Router>
+      <Home />
+    </Router>
   );
 }
 
