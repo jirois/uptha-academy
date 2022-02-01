@@ -1,4 +1,5 @@
 import React from 'react';
+import Courses from '../component/Course';
 import HeroSection from '../component/Hero';
 import InfoSection from '../component/InfoSection';
 import { homeObjOne, homeObjThree, homeObjTwo } from '../component/InfoSection/data'
@@ -11,6 +12,7 @@ const Home = () => {
             <HeroSection />
             <InfoSection {...homeObjOne} />
             <InfoSection {...homeObjTwo} />
+            <Courses />
             <InfoSection {...homeObjThree} />
         </>
     )
