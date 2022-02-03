@@ -99,7 +99,7 @@ const Navbar = ({ toggle }) => {
                     <NavBtnLinkOne to="/signin">
                         Sign In
                     </NavBtnLinkOne>
-                    <NavBtnLinkTwo to="/signin">
+                    <NavBtnLinkTwo to="/register">
                         Sign Up
                     </NavBtnLinkTwo>
                 </NavBtn>

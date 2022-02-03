@@ -43,7 +43,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                 </SidebarMenu>
                 <SidebarBtnWrap>
                     <SidebarRouter to="/signin">Sign In</SidebarRouter>
-                    <SidebarRouter to="/signup">Sign Up</SidebarRouter>
+                    <SidebarRouter to="/register">Sign Up</SidebarRouter>
                 </SidebarBtnWrap>
             </SidebarWrapper>
 
