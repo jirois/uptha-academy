@@ -13,6 +13,10 @@ export const HeroContainer = styled.div`
     max-height: 800px;
     height: 600px;
 
+    @media screen and (max-width: 486px){
+        height: 800px;
+    }
+
 `
 
 export const HeroBg = styled.div`
