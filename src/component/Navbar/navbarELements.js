@@ -30,6 +30,7 @@ export const NavbarContainer = styled.div`
 `
 
 export const NavLogo = styled(LinkR)`
+    font-family: 'Bodoni Moda', serif;
     color: #fff;
     justify-self: flex-start;
     display: flex;
