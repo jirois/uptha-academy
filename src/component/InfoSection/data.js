@@ -1,57 +1,50 @@
 export const homeObjOne = {
-    id: 'about',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Up Learning',
-    headLine: 'Unlimited Transactions with zero fees',
-    description:
-        `Get access to our exclusive aap that allows you to send unlimited
-    transactions without getting charged any fees`,
-    buttonLabel: 'Get started',
-    imgStart: false,
-    img: '/image/going_up.svg',
-    alt: 'Car',
-    dark: true,
-    primary: true,
-    darkText: false
-}
+  id: "about",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Up Learning",
+  headLine: "Flexible Learning",
+  description: `Get to learn at your pace and in stress free atmosphere, carefully designed to give you the best learning experience`,
+  buttonLabel: "Get started",
+  imgStart: false,
+  img: "/image/going_up.svg",
+  alt: "Car",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
 
 export const homeObjTwo = {
-    id: 'discover',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: true,
-    topLine: 'Unlimited Access',
-    headLine: 'Login to your account at any time',
-    description:
-        `We have you covered no matter where you are located. All 
-        you need is an internet connection and a phone or computer`,
-    buttonLabel: 'Learn more',
-    imgStart: true,
-    img: '/image/online_learning.svg',
-    alt: 'Piggybank',
-    dark: false,
-    primary: false,
-    darkText: true
-}
+  id: "discover",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: true,
+  topLine: "Tailored Learning",
+  headLine: "Learn New Concept At Faster Rate",
+  description: `Learn unfamiliar things using familiar and relatable examples for your quick understanding of new and difficult concept`,
+  buttonLabel: "Learn more",
+  imgStart: true,
+  img: "/image/online_learning.svg",
+  alt: "Learning faster",
+  dark: false,
+  primary: false,
+  darkText: true,
+};
 
 export const homeObjThree = {
-    id: 'signup',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: true,
-    topLine: 'Join Our Team',
-    headLine: 'Creating an account is extremely easy',
-    description:
-        `Get everything set up and ready in under 10 minutes. All 
-        you need to do is add your information and you're ready to 
-        go`,
-    buttonLabel: 'Start Now',
-    imgStart: false,
-    img: '/image/sign_up.svg',
-    alt: 'Papper',
-    dark: false,
-    primary: false,
-    darkText: true
-}
+  id: "team",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: true,
+  topLine: "Join Our Team",
+  headLine: "Our team is fast growing",
+  description: `Get to join a fast growing team. Our team is super charged toward delivering the next big innovation in the world`,
+  buttonLabel: "Join Now",
+  imgStart: false,
+  img: "/image/team.svg",
+  alt: "Team",
+  dark: false,
+  primary: false,
+  darkText: true,
+};

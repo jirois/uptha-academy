@@ -24,17 +24,17 @@ const Courses = () => {
                 <CoursesCard>
                     <CoursesIcon src={Icon1} />
                     <CoursesH2>Basic Computer Skills</CoursesH2>
-                    <CoursesP>We help to under how your computer and how to navigate around your computer</CoursesP>
+                    <CoursesP>Learn basic computer skills such as word processing sofeware, spreadsheet sofware, Email management, Data entry, Social media management, Video Conferencing, Slide Show Sofeware</CoursesP>
                 </CoursesCard>
                 <CoursesCard>
                     <CoursesIcon src={Icon2} />
                     <CoursesH2>Web apps development</CoursesH2>
-                    <CoursesP>We help to under how your computer and how to navigate around your computer</CoursesP>
+                    <CoursesP>Get to learn HTML, CSS and programming language such as Javascript, Nodesj etc and Javascript Libraries such as React, Vue for building awesome websites</CoursesP>
                 </CoursesCard>
                 <CoursesCard>
                     <CoursesIcon src={Icon3} />
                     <CoursesH2>Data science</CoursesH2>
-                    <CoursesP>We help to under how your computer and how to navigate around your computer</CoursesP>
+                    <CoursesP>In our Data science you get to learn Spreadsheets in detail, SQL( a relational data stream management system programming language), Python programming language</CoursesP>
                 </CoursesCard>
             </CoursesWrapper>
         </CoursesContainer>
