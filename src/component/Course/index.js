@@ -24,12 +24,12 @@ const Courses = () => {
                 <CoursesCard>
                     <CoursesIcon src={Icon1} />
                     <CoursesH2>Basic Computer Skills</CoursesH2>
-                    <CoursesP>Learn basic computer skills such as word processing sofeware, spreadsheet sofware, Email management, Data entry</CoursesP>
+                    <CoursesP>Learn basic computer skills such as word processing software, spreadsheet software, Email management, Data entry etc</CoursesP>
                 </CoursesCard>
                 <CoursesCard>
                     <CoursesIcon src={Icon2} />
                     <CoursesH2>Web apps development</CoursesH2>
-                    <CoursesP>Get to learn HTML, CSS and programming language such as Javascript, Nodesj etc and Javascript Libraries such as React, Vue for building awesome websites</CoursesP>
+                    <CoursesP>You will learn HTML, CSS and programming language such as Javascript, Nodejs etc and Javascript Libraries such as React</CoursesP>
                 </CoursesCard>
                 <CoursesCard>
                     <CoursesIcon src={Icon3} />
