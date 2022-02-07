@@ -34,7 +34,7 @@ const Courses = () => {
                 <CoursesCard>
                     <CoursesIcon src={Icon3} />
                     <CoursesH2>Data science</CoursesH2>
-                    <CoursesP>In our Data science class you will get to learn Spreadsheets in detail, SQL, Python programming language</CoursesP>
+                    <CoursesP>In our Data science class you will get to learn Spreadsheet in detail, SQL, Python programming language</CoursesP>
                 </CoursesCard>
             </CoursesWrapper>
         </CoursesContainer>
