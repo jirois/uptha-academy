@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useContext, useState, useEffect } from "react";
-import url from "./utils/url";
+// import url from "./utils/url";
 const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
@@ -35,6 +35,7 @@ const AppProvider = ({ children }) => {
 
   useEffect(() => {
     fetchUser();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
