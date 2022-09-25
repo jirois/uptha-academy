@@ -1,21 +1,20 @@
-import React, { useState } from 'react';
-import Navbar from './index';
-import Sidebar from '../Sidebar';
-
+import React, { useState } from "react";
+import Navbar from "./index";
+import Sidebar from "../Sidebar";
 
 const NavbarHome = () => {
-    const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
-    const toggleSide = () => {
-        setIsOpen(!isOpen)
-    }
+  const toggleSide = () => {
+    setIsOpen(!isOpen);
+  };
 
-    return (
-        <>
-            <Sidebar isOpen={isOpen} toggle={toggleSide} />
-            <Navbar toggle={toggleSide} />
-        </>
-    );
+  return (
+    <>
+      <Sidebar isOpen={isOpen} toggle={toggleSide} />
+      <Navbar toggle={toggleSide} />
+    </>
+  );
 };
 
 export default NavbarHome;

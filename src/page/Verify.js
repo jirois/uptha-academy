@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useLocation, Link } from "react-router-dom";
 import styled from "styled-components";
-import { useGlobalContext } from "../context";
+import { useGlobalContext } from "../Context";
 import axios from "axios";
 function useQuery() {
   return new URLSearchParams(useLocation().search);

@@ -2,7 +2,7 @@ import { useState } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import FormRow from "../component/FormRow";
-import { useGlobalContext } from "../context";
+import { useGlobalContext } from "../Context";
 import useLocalState from "../utils/localState";
 
 import axios from "axios";

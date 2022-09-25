@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, ButtonLink } from "../ButtonElement";
+import { ButtonLink } from "../ButtonElement";
 import video from "../../videos/video_7.mp4";
 
 import {
