@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import FormRow from "../component/FormRow";
 import axios from "axios";
 import useLocalState from "../utils/localState";
+import { baseUrl } from "../utils/url";
 
 function Register() {
   const [values, setValues] = useState({
@@ -34,7 +35,7 @@ function Register() {
 
     try {
       const { data } = await axios.post(
-        `/api/v1/auth/register`,
+        baseUrl + "auth/register",
         registerNewUser
       );
 

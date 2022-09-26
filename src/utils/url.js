@@ -1,3 +1,1 @@
-const url = 'https://server-ups.herokuapp.com/'
-
-export default url
+export const baseUrl = "https://seuptha.herokuapp.com/api/v1/";

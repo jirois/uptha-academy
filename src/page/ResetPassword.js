@@ -4,6 +4,7 @@ import styled from "styled-components";
 import axios from "axios";
 import FormRow from "../component/FormRow";
 import useLocalState from "../utils/localState";
+import { baseUrl } from "../utils/url";
 
 function useQuery() {
   return new URLSearchParams(useLocation().search);
@@ -28,7 +29,7 @@ const ResetPasswordForm = () => {
       return;
     }
     try {
-      await axios.post("/api/v1/auth/reset-password", {
+      await axios.post(baseUrl + "auth/reset-password", {
         password,
         token: query.get("token"),
         email: query.get("email"),

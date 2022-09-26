@@ -6,6 +6,7 @@ import { useGlobalContext } from "../Context";
 import useLocalState from "../utils/localState";
 
 import axios from "axios";
+import { baseUrl } from "../utils/url";
 
 function Login() {
   const { saveUser } = useGlobalContext();
@@ -25,7 +26,7 @@ function Login() {
     const { email, password } = values;
     const loginUser = { email, password };
     try {
-      const { data } = await axios.post(`/api/v1/auth/login`, loginUser);
+      const { data } = await axios.post(baseUrl + "auth/login", loginUser);
       setValues({ name: "", email: "", password: "" });
       showAlert({
         text: `Welcome, ${data.user.name}. Redirecting to dashboard...`,
